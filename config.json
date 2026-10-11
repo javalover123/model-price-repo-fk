@@ -17,6 +17,10 @@
     "moonshot/": "strip",
     "zai/":      "strip",
     "minimax/":  "both",
+    "aihubmix/":"strip",
+    "meta/":"strip",
+    "prism/":"strip",
+    "xai/":"strip",
     "volcengine/":"strip"
   },
   "exclude_patterns": [
