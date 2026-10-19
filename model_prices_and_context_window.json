@@ -14368,6 +14368,23 @@
     "supports_reasoning": true,
     "supports_tool_choice": true
   },
+  "sam-3.1": {
+    "input_cost_per_image": 0.0025,
+    "litellm_provider": "meta",
+    "mode": "responses",
+    "source": "https://dev.meta.ai/docs/pricing-rate-limits.md",
+    "supported_endpoints": [
+      "/v1/responses"
+    ],
+    "supported_modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "supported_output_modalities": [
+      "text"
+    ]
+  },
   "speech-02-hd": {
     "input_cost_per_character": 0.0001,
     "litellm_provider": "minimax",
