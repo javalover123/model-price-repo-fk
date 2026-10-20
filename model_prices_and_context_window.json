@@ -2719,6 +2719,11 @@
       "search_context_size_low": 0.035,
       "search_context_size_medium": 0.035
     },
+    "search_free_requests": {
+      "count": 1500,
+      "period": "day",
+      "shared_group": "gemini-2-flash"
+    },
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -2841,6 +2846,11 @@
       "search_context_size_low": 0.035,
       "search_context_size_medium": 0.035
     },
+    "search_free_requests": {
+      "count": 1500,
+      "period": "day",
+      "shared_group": "gemini-2-flash"
+    },
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -2946,6 +2956,11 @@
       "search_context_size_high": 0.035,
       "search_context_size_low": 0.035,
       "search_context_size_medium": 0.035
+    },
+    "search_free_requests": {
+      "count": 1500,
+      "period": "day",
+      "shared_group": "gemini-2-flash"
     },
     "source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/",
     "supported_endpoints": [
@@ -3082,6 +3097,11 @@
       "search_context_size_low": 0.035,
       "search_context_size_medium": 0.035
     },
+    "search_free_requests": {
+      "count": 1500,
+      "period": "day",
+      "shared_group": "gemini-2-flash"
+    },
     "source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -3170,6 +3190,11 @@
       "search_context_size_high": 0.035,
       "search_context_size_low": 0.035,
       "search_context_size_medium": 0.035
+    },
+    "search_free_requests": {
+      "count": 10000,
+      "period": "day",
+      "shared_group": "gemini-2.5-pro"
     },
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
     "supported_endpoints": [
@@ -3421,6 +3446,11 @@
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
     },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
+    },
     "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -3472,6 +3502,11 @@
       "search_context_size_high": 0.014,
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
+    },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/gemini-api/docs/pricing",
     "supported_endpoints": [
@@ -3582,6 +3617,11 @@
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
     },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
+    },
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -3623,6 +3663,11 @@
       "search_context_size_high": 0.014,
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
+    },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
     },
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models",
     "supported_endpoints": [
@@ -3682,6 +3727,11 @@
       "search_context_size_high": 0.014,
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
+    },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
     "supported_endpoints": [
@@ -3786,6 +3836,11 @@
       "search_context_size_high": 0.014,
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
+    },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/gemini-api/docs/models",
     "supported_endpoints": [
@@ -4242,6 +4297,11 @@
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
     },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
+    },
     "source": "https://ai.google.dev/pricing/gemini-3",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -4359,6 +4419,11 @@
       "search_context_size_high": 0.014,
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
+    },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/pricing/gemini-3",
     "supported_endpoints": [
@@ -4478,6 +4543,11 @@
       "search_context_size_high": 0.014,
       "search_context_size_low": 0.014,
       "search_context_size_medium": 0.014
+    },
+    "search_free_requests": {
+      "count": 5000,
+      "period": "month",
+      "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/gemini-api/docs/pricing",
     "supported_endpoints": [
