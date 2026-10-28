@@ -1329,6 +1329,7 @@
     "cache_creation_input_token_cost_above_200k_tokens": 7.5e-06,
     "cache_read_input_token_cost": 3e-07,
     "cache_read_input_token_cost_above_200k_tokens": 6e-07,
+    "deprecation_date": "2027-04-08",
     "input_cost_per_token": 3e-06,
     "input_cost_per_token_above_200k_tokens": 6e-06,
     "input_cost_per_token_batches": 1.5e-06,
@@ -1341,6 +1342,7 @@
     "output_cost_per_token_above_200k_tokens": 2.25e-05,
     "output_cost_per_token_batches": 7.5e-06,
     "prompt_cache_min_tokens": 1024,
+    "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.md",
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
@@ -6603,6 +6605,7 @@
     ]
   },
   "gpt-4o-mini-transcribe-2025-12-15": {
+    "deprecation_date": "2027-02-26",
     "input_cost_per_audio_token": 1.25e-06,
     "input_cost_per_second": 5e-05,
     "input_cost_per_token": 1.25e-06,
@@ -6617,6 +6620,7 @@
     ]
   },
   "gpt-4o-mini-tts": {
+    "deprecation_date": "2027-01-06",
     "input_cost_per_token": 2.5e-06,
     "litellm_provider": "openai",
     "mode": "audio_speech",
@@ -6821,6 +6825,7 @@
     "cache_read_input_token_cost_batches": 6.25e-08,
     "cache_read_input_token_cost_flex": 6.25e-08,
     "cache_read_input_token_cost_priority": 2.5e-07,
+    "deprecation_date": "2026-12-11",
     "input_cost_per_token": 1.25e-06,
     "input_cost_per_token_batches": 6.25e-07,
     "input_cost_per_token_flex": 6.25e-07,
@@ -7042,6 +7047,7 @@
     "cache_read_input_token_cost_batches": 1.25e-08,
     "cache_read_input_token_cost_flex": 1.25e-08,
     "cache_read_input_token_cost_priority": 4.5e-08,
+    "deprecation_date": "2026-12-11",
     "input_cost_per_token": 2.5e-07,
     "input_cost_per_token_batches": 1.25e-07,
     "input_cost_per_token_flex": 1.25e-07,
@@ -7148,6 +7154,7 @@
     "cache_read_input_token_cost": 5e-09,
     "cache_read_input_token_cost_batches": 2.5e-09,
     "cache_read_input_token_cost_flex": 2.5e-09,
+    "deprecation_date": "2026-12-11",
     "input_cost_per_token": 5e-08,
     "input_cost_per_token_batches": 2.5e-08,
     "input_cost_per_token_flex": 2.5e-08,
@@ -7246,6 +7253,7 @@
     "supports_xhigh_reasoning_effort": false
   },
   "gpt-5-pro": {
+    "deprecation_date": "2026-12-11",
     "input_cost_per_token": 1.5e-05,
     "input_cost_per_token_batches": 7.5e-06,
     "litellm_provider": "openai",
@@ -7447,6 +7455,7 @@
     "cache_read_input_token_cost_flex": 6.25e-08,
     "cache_read_input_token_cost_priority": 2.5e-07,
     "default_reasoning_effort": "none",
+    "deprecation_date": "2027-04-01",
     "input_cost_per_token": 1.25e-06,
     "input_cost_per_token_batches": 6.25e-07,
     "input_cost_per_token_flex": 6.25e-07,
@@ -8407,6 +8416,7 @@
     "cache_read_input_token_cost_batches": 1e-08,
     "cache_read_input_token_cost_flex": 1e-08,
     "default_reasoning_effort": "none",
+    "deprecation_date": "2027-04-01",
     "input_cost_per_token": 2e-07,
     "input_cost_per_token_batches": 1e-07,
     "input_cost_per_token_flex": 1e-07,
@@ -11517,9 +11527,13 @@
   "grok-4.7": {
     "cache_read_input_token_cost": 5e-07,
     "cache_read_input_token_cost_above_200k_tokens": 1e-06,
+    "cache_read_input_token_cost_above_200k_tokens_batches": 8e-07,
+    "cache_read_input_token_cost_batches": 4e-07,
     "input_cost_per_image_token": 2e-06,
     "input_cost_per_token": 2e-06,
     "input_cost_per_token_above_200k_tokens": 4e-06,
+    "input_cost_per_token_above_200k_tokens_batches": 3.2e-06,
+    "input_cost_per_token_batches": 1.6e-06,
     "litellm_provider": "xai",
     "max_input_tokens": 500000,
     "max_output_tokens": 500000,
@@ -11527,6 +11541,8 @@
     "mode": "chat",
     "output_cost_per_token": 6e-06,
     "output_cost_per_token_above_200k_tokens": 1.2e-05,
+    "output_cost_per_token_above_200k_tokens_batches": 9.6e-06,
+    "output_cost_per_token_batches": 4.8e-06,
     "source": "https://api.x.ai/v1/language-models",
     "supports_function_calling": true,
     "supports_prompt_caching": true,
@@ -11602,6 +11618,7 @@
   "grok-code-fast-1": {
     "cache_read_input_token_cost": 2e-07,
     "cache_read_input_token_cost_above_200k_tokens": 4e-07,
+    "deprecation_date": "2026-05-15",
     "input_cost_per_image_token": 1e-06,
     "input_cost_per_token": 1e-06,
     "input_cost_per_token_above_200k_tokens": 2e-06,
@@ -11690,6 +11707,7 @@
     ]
   },
   "grok-imagine-image-pro": {
+    "deprecation_date": "2026-05-15",
     "input_cost_per_image": 0.05,
     "litellm_provider": "xai",
     "mode": "image_generation",
@@ -12193,6 +12211,7 @@
   "kimi-k2.5": {
     "cache_creation_input_token_cost": 6e-07,
     "cache_read_input_token_cost": 1e-07,
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 6e-07,
     "litellm_provider": "moonshot",
     "max_input_tokens": 131072,
@@ -12341,6 +12360,28 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_video_input": true,
+    "supports_vision": true
+  },
+  "kimi-k3.1-pro": {
+    "cache_creation_input_token_cost": 2e-06,
+    "cache_creation_input_token_cost_above_1hr": 4e-06,
+    "cache_read_input_token_cost": 2e-07,
+    "input_cost_per_token": 2e-06,
+    "litellm_provider": "moonshot",
+    "max_input_tokens": 1048576,
+    "max_output_tokens": 1048576,
+    "mode": "chat",
+    "output_cost_per_token": 1e-05,
+    "reasoning_effort_levels": [
+      "low",
+      "high",
+      "max"
+    ],
+    "source": "https://platform.kimi.ai/docs/pricing/chat",
+    "supports_function_calling": true,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
     "supports_vision": true
   },
   "kimi-latest": {
@@ -12683,6 +12724,7 @@
     ]
   },
   "moonshot-v1-128k": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 2e-06,
     "litellm_provider": "moonshot",
     "max_input_tokens": 131072,
@@ -12709,6 +12751,7 @@
     "supports_tool_choice": true
   },
   "moonshot-v1-128k-vision-preview": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 2e-06,
     "litellm_provider": "moonshot",
     "max_input_tokens": 131072,
@@ -12723,6 +12766,7 @@
     "supports_vision": true
   },
   "moonshot-v1-32k": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 1e-06,
     "litellm_provider": "moonshot",
     "max_input_tokens": 32768,
@@ -12749,6 +12793,7 @@
     "supports_tool_choice": true
   },
   "moonshot-v1-32k-vision-preview": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 1e-06,
     "litellm_provider": "moonshot",
     "max_input_tokens": 32768,
@@ -12763,6 +12808,7 @@
     "supports_vision": true
   },
   "moonshot-v1-8k": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 2e-07,
     "litellm_provider": "moonshot",
     "max_input_tokens": 8192,
@@ -12789,6 +12835,7 @@
     "supports_tool_choice": true
   },
   "moonshot-v1-8k-vision-preview": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 2e-07,
     "litellm_provider": "moonshot",
     "max_input_tokens": 8192,
@@ -12803,6 +12850,7 @@
     "supports_vision": true
   },
   "moonshot-v1-auto": {
+    "deprecation_date": "2026-08-31",
     "input_cost_per_token": 2e-06,
     "litellm_provider": "moonshot",
     "max_input_tokens": 131072,
@@ -13162,6 +13210,7 @@
     "cache_read_input_token_cost": 5e-07,
     "cache_read_input_token_cost_flex": 2.5e-07,
     "cache_read_input_token_cost_priority": 8.75e-07,
+    "deprecation_date": "2026-12-11",
     "input_cost_per_token": 2e-06,
     "input_cost_per_token_batches": 1e-06,
     "input_cost_per_token_flex": 1e-06,
@@ -13380,6 +13429,7 @@
     "supports_vision": false
   },
   "o3-pro": {
+    "deprecation_date": "2026-12-11",
     "input_cost_per_token": 2e-05,
     "input_cost_per_token_batches": 1e-05,
     "litellm_provider": "openai",
