@@ -144,6 +144,29 @@
     "supports_tool_choice": true,
     "supports_vision": true
   },
+  "MiniMax-M3.1-Flash": {
+    "cache_read_input_token_cost": 1.5e-08,
+    "input_cost_per_token": 1.5e-07,
+    "litellm_provider": "minimax",
+    "max_input_tokens": 1000000,
+    "mode": "chat",
+    "output_cost_per_token": 6e-07,
+    "reasoning_effort_levels": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "supports_function_calling": true,
+    "supports_max_reasoning_effort": true,
+    "supports_none_reasoning_effort": false,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_vision": true,
+    "supports_xhigh_reasoning_effort": true
+  },
   "agnes-2.5-flash": {
     "input_cost_per_token": 3e-08,
     "litellm_provider": "aihubmix",
@@ -9877,12 +9900,15 @@
     "cache_creation_input_token_cost": 2.5e-05,
     "cache_creation_input_token_cost_above_12hr": 5e-05,
     "cache_read_input_token_cost": 2e-06,
+    "cache_read_input_token_cost_above_272k_tokens": 4e-06,
     "input_cost_per_token": 2e-05,
+    "input_cost_per_token_above_272k_tokens": 4e-05,
     "litellm_provider": "openai",
     "max_input_tokens": 922000,
     "max_output_tokens": 128000,
     "mode": "chat",
     "output_cost_per_token": 0.0001,
+    "output_cost_per_token_above_272k_tokens": 0.00015,
     "source": "https://developers.openai.com/api/docs/models/gpt-6-cyber",
     "supported_endpoints": [
       "/v1/chat/completions",
@@ -13517,6 +13543,29 @@
     "supports_system_messages": true,
     "supports_tool_choice": true,
     "supports_vision": true
+  },
+  "minimax/MiniMax-M3.1-Flash": {
+    "cache_read_input_token_cost": 1.5e-08,
+    "input_cost_per_token": 1.5e-07,
+    "litellm_provider": "minimax",
+    "max_input_tokens": 1000000,
+    "mode": "chat",
+    "output_cost_per_token": 6e-07,
+    "reasoning_effort_levels": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "supports_function_calling": true,
+    "supports_max_reasoning_effort": true,
+    "supports_none_reasoning_effort": false,
+    "supports_prompt_caching": true,
+    "supports_reasoning": true,
+    "supports_vision": true,
+    "supports_xhigh_reasoning_effort": true
   },
   "minimax/minimax-latest": {
     "alias_of": "minimax/MiniMax-M3"
