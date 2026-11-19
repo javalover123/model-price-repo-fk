@@ -1477,6 +1477,7 @@
     "output_cost_per_token_batches": 7.5e-06,
     "prompt_cache_min_tokens": 1024,
     "source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.md",
+    "successor_model": "anthropic.claude-sonnet-5-5",
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
@@ -11290,6 +11291,23 @@
     "supports_audio_output": true,
     "supports_function_calling": true
   },
+  "gpt-live-1.1": {
+    "input_cost_per_second": 0.000833333333333,
+    "litellm_provider": "openai",
+    "mode": "realtime",
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "supported_modalities": [
+      "text",
+      "audio"
+    ],
+    "supported_output_modalities": [
+      "text",
+      "audio"
+    ],
+    "supports_audio_input": true,
+    "supports_audio_output": true,
+    "supports_function_calling": true
+  },
   "gpt-live-transcribe": {
     "input_cost_per_second": 0.0002833333333333333,
     "litellm_provider": "openai",
@@ -13964,6 +13982,7 @@
     "mode": "chat",
     "output_cost_per_token": 5e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true
@@ -13991,6 +14010,7 @@
     "mode": "chat",
     "output_cost_per_token": 5e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true,
@@ -14006,6 +14026,7 @@
     "mode": "chat",
     "output_cost_per_token": 3e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true
@@ -14033,6 +14054,7 @@
     "mode": "chat",
     "output_cost_per_token": 3e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true,
@@ -14048,6 +14070,7 @@
     "mode": "chat",
     "output_cost_per_token": 2e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true
@@ -14075,6 +14098,7 @@
     "mode": "chat",
     "output_cost_per_token": 2e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true,
@@ -14090,6 +14114,7 @@
     "mode": "chat",
     "output_cost_per_token": 5e-06,
     "source": "https://platform.moonshot.ai/docs/pricing",
+    "successor_model": "moonshot/kimi-k3.1-pro",
     "supports_function_calling": true,
     "supports_response_schema": true,
     "supports_tool_choice": true
