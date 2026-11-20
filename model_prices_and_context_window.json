@@ -414,6 +414,7 @@
     "supports_computer_use": true,
     "supports_forced_tool_use": false,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_mid_conversation_system": true,
     "supports_native_structured_output": true,
@@ -461,6 +462,7 @@
     "supports_fast_mode": true,
     "supports_forced_tool_use": false,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_mid_conversation_system": true,
     "supports_native_structured_output": true,
@@ -578,6 +580,7 @@
     "supports_computer_use": true,
     "supports_forced_tool_use": false,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_mid_conversation_system": true,
     "supports_native_structured_output": true,
@@ -925,6 +928,7 @@
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_native_structured_output": true,
     "supports_output_config": true,
     "supports_pdf_input": true,
@@ -969,6 +973,7 @@
     "supports_computer_use": true,
     "supports_function_calling": true,
     "supports_legacy_thinking": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_native_structured_output": true,
     "supports_output_config": true,
@@ -1059,6 +1064,7 @@
     "supports_computer_use": true,
     "supports_function_calling": true,
     "supports_legacy_thinking": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_native_structured_output": true,
     "supports_output_config": true,
@@ -1104,6 +1110,7 @@
     "supports_assistant_prefill": false,
     "supports_computer_use": true,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_native_structured_output": true,
     "supports_output_config": true,
@@ -1196,6 +1203,7 @@
     "supports_assistant_prefill": false,
     "supports_computer_use": true,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_native_structured_output": true,
     "supports_output_config": true,
@@ -1313,6 +1321,7 @@
     "supports_fast_mode": true,
     "supports_forced_tool_use": false,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_mid_conversation_system": true,
     "supports_native_structured_output": true,
@@ -1526,6 +1535,7 @@
     "supports_computer_use": true,
     "supports_function_calling": true,
     "supports_legacy_thinking": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_native_structured_output": true,
     "supports_output_config": true,
@@ -1616,6 +1626,7 @@
     "supports_computer_use": true,
     "supports_forced_tool_use": false,
     "supports_function_calling": true,
+    "supports_low_reasoning_effort": true,
     "supports_max_reasoning_effort": true,
     "supports_mid_conversation_system": true,
     "supports_native_structured_output": true,
@@ -10113,6 +10124,7 @@
     "cache_creation_input_token_cost_above_272k_tokens": 3.75e-05,
     "cache_read_input_token_cost": 1.5e-06,
     "cache_read_input_token_cost_above_272k_tokens": 3e-06,
+    "comment": "These are OpenAI's promotional rates, which the pricing page says are available at least through 2026-12-31. Recheck on 2027-01-01.",
     "input_cost_per_token": 1.5e-05,
     "input_cost_per_token_above_272k_tokens": 3e-05,
     "litellm_provider": "openai",
@@ -11808,6 +11820,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -11836,6 +11852,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -11864,6 +11884,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -11891,6 +11915,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -11913,6 +11941,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -11935,6 +11967,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -11957,6 +11993,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -11978,6 +12018,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12000,6 +12044,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12022,6 +12070,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12043,6 +12095,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12065,6 +12121,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12086,6 +12146,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12108,6 +12172,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12130,6 +12198,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12151,6 +12223,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12173,6 +12249,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12195,6 +12275,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12216,6 +12300,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12246,6 +12334,10 @@
     "source": "https://api.x.ai/v1/language-models",
     "supported_endpoints": [
       "/v1/responses"
+    ],
+    "supported_modalities": [
+      "text",
+      "image"
     ],
     "supports_function_calling": false,
     "supports_prompt_caching": true,
@@ -12278,6 +12370,10 @@
     "supported_endpoints": [
       "/v1/responses"
     ],
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12302,6 +12398,10 @@
     "source": "https://api.x.ai/v1/language-models",
     "supported_endpoints": [
       "/v1/responses"
+    ],
+    "supported_modalities": [
+      "text",
+      "image"
     ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
@@ -12328,6 +12428,10 @@
     "supported_endpoints": [
       "/v1/responses"
     ],
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": false,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12353,6 +12457,10 @@
     "supported_endpoints": [
       "/v1/responses"
     ],
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": false,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12377,6 +12485,10 @@
     "source": "https://api.x.ai/v1/language-models",
     "supported_endpoints": [
       "/v1/responses"
+    ],
+    "supported_modalities": [
+      "text",
+      "image"
     ],
     "supports_function_calling": false,
     "supports_prompt_caching": true,
@@ -12409,6 +12521,10 @@
     "supported_endpoints": [
       "/v1/responses"
     ],
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": false,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12437,6 +12553,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12458,6 +12578,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12485,6 +12609,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_response_schema": true,
@@ -12512,6 +12640,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12534,6 +12666,10 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_above_200k_tokens": 5e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12562,6 +12698,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12590,6 +12730,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://docs.x.ai/developers/models/grok-4.3",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12620,6 +12764,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 4e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12643,6 +12791,10 @@
     "output_cost_per_token": 6e-06,
     "output_cost_per_token_above_200k_tokens": 1.2e-05,
     "source": "https://docs.x.ai/developers/models/grok-4.5",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12665,6 +12817,10 @@
     "output_cost_per_token": 6e-06,
     "output_cost_per_token_above_200k_tokens": 1.2e-05,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12714,6 +12870,10 @@
     "output_cost_per_token_above_200k_tokens_batches": 9.6e-06,
     "output_cost_per_token_batches": 4.8e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12756,6 +12916,10 @@
     "output_cost_per_token": 6e-06,
     "output_cost_per_token_above_200k_tokens": 1.2e-05,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12778,6 +12942,10 @@
     "output_cost_per_token": 2e-06,
     "output_cost_per_token_above_200k_tokens": 4e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12802,6 +12970,10 @@
     "output_cost_per_token_above_200k_tokens": 4e-06,
     "source": "https://api.x.ai/v1/language-models",
     "successor_model": "xai/grok-build-0.1",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -12823,6 +12995,10 @@
     "output_cost_per_token": 2e-06,
     "output_cost_per_token_above_200k_tokens": 4e-06,
     "source": "https://api.x.ai/v1/language-models",
+    "supported_modalities": [
+      "text",
+      "image"
+    ],
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
