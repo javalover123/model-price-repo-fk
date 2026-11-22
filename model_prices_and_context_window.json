@@ -12783,7 +12783,9 @@
     "supports_response_schema": true,
     "supports_tool_choice": true,
     "supports_vision": true,
-    "supports_web_search": true
+    "supports_web_search": true,
+    "token_count_framing": 185,
+    "token_count_tool_framing": 214
   },
   "grok-4.5": {
     "_comment": "Per docs.x.ai/developers/models/grok-4.5: <200k $2.00 / cached $0.30 / $6.00; >=200k $4.00 / $0.60 / $12.00. 'Requests whose prompt reaches 200k tokens are billed at the higher rate for all tokens in the request.' (xAI moves to the higher tier as soon as the threshold is reached.) The three above_200k fields match LiteLLM's xai/grok-* entries; LiteLLM has no bare key of this name, so they are never absorbed automatically.",
